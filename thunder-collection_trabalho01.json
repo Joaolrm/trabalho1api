@@ -1,0 +1,92 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "trabalho01",
+    "dateExported": "2024-05-01T00:54:16.011Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "a0a25c50-0e12-4f44-9679-97efda2188af",
+            "name": "produtos",
+            "containerId": "",
+            "created": "2024-04-30T23:54:49.090Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "6bdf5f9b-6b65-4765-b5a0-84589291961f",
+            "colId": "df494954-18fc-4e85-9217-3c5102495336",
+            "containerId": "a0a25c50-0e12-4f44-9679-97efda2188af",
+            "name": "listar produtos (produtos)",
+            "url": "http://localhost:3000/produtos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-30T23:53:53.887Z",
+            "modified": "2024-04-30T23:54:50.851Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7a45d3ad-8d33-444d-91b0-b759d3c6373b",
+            "colId": "df494954-18fc-4e85-9217-3c5102495336",
+            "containerId": "a0a25c50-0e12-4f44-9679-97efda2188af",
+            "name": "obter produtos por id (produtos/:Id)",
+            "url": "http://localhost:3000/produtos/3",
+            "method": "GET",
+            "sortNum": 12500,
+            "created": "2024-04-30T23:54:59.768Z",
+            "modified": "2024-05-01T00:25:51.406Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "530a8d07-9ef8-4669-a391-a6a50732f0ea",
+            "colId": "df494954-18fc-4e85-9217-3c5102495336",
+            "containerId": "a0a25c50-0e12-4f44-9679-97efda2188af",
+            "name": "inserir produtos (produtos)",
+            "url": "http://localhost:3000/produtos",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2024-04-30T23:56:03.168Z",
+            "modified": "2024-05-01T00:54:04.369Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n      \"nome\": \"suco\"\r\n      ,\"categoria\": \"bebida\"\r\n      ,\"preco\": 6.25\r\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7077cca9-d458-4ef8-b108-f101b72c0f21",
+            "colId": "df494954-18fc-4e85-9217-3c5102495336",
+            "containerId": "a0a25c50-0e12-4f44-9679-97efda2188af",
+            "name": "atualizar produtos por id (produtos/:Id)",
+            "url": "http://localhost:3000/produtos/9",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-04-30T23:55:39.920Z",
+            "modified": "2024-05-01T00:01:15.861Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "491990f2-4c40-473a-85fc-9d2046485785",
+            "colId": "df494954-18fc-4e85-9217-3c5102495336",
+            "containerId": "a0a25c50-0e12-4f44-9679-97efda2188af",
+            "name": "deletar produtos por id (produtos/:Id)",
+            "url": "http://localhost:3000/produtos/9",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-04-30T23:56:49.952Z",
+            "modified": "2024-04-30T23:57:11.490Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
